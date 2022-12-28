@@ -1,4 +1,4 @@
-from src.Project.Infrastructure.IProjectRepository import IProjectRepository
+from src.Project.Domain.IProjectRepository import IProjectRepository
 
 
 class CreateUserProjectAction:

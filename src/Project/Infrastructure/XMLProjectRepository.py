@@ -1,6 +1,6 @@
 import os
 from xml.etree.ElementTree import Element, SubElement, ElementTree
-from .IProjectRepository import IProjectRepository
+from src.Project.Domain.IProjectRepository import IProjectRepository
 
 
 class XMLProjectRepository(IProjectRepository):

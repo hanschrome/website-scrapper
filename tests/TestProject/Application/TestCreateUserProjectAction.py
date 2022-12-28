@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import Mock
 from src.Project.Application.CreateUserProjectAction import CreateUserProjectAction
-from src.Project.Infrastructure.IProjectRepository import IProjectRepository
+from src.Project.Domain.IProjectRepository import IProjectRepository
 
 
 class TestCreateUserProjectAction(unittest.TestCase):
