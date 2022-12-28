@@ -23,4 +23,5 @@ class TestXMLProjectRepository(unittest.TestCase):
         self.assertEqual(root.find("url").text, "http://example.com")
 
         # Clean up
+        os.remove(os.path.join("My Project", "project.xml"))
         os.rmdir("My Project")
